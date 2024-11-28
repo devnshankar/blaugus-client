@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import './App.css';
 
-const API_BASE = import.meta.env.VITE_SERVER_URL || "__SERVER_URL__";
+const API_BASE = import.meta.env.VITE_SERVER_URL || "__VITE_SERVER_URL__";
 
 interface Blog {
   id: string;
